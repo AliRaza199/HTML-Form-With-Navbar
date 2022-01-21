@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../media/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first{
+    /* border: 3px solid black;   // border for understanding */
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 19px;
+    top: 15px;
+}
+.first img{
+    width: 80px;
+    /* filter: invert(100%);   ---To cahnge black to white & vice versa---      */ 
+}
+.first div{
+    text-align: center;
+    color: white;
+}
+
+.second{
+    /* border: 3px solid green;   // border for understanding */
+    display: block; /* for center an element: three properties important(display: block; width:33%; margin:auto;) */
+    width: 36%;
+    margin:15px auto;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.navbar li a:hover{
+    font-size: 21px;
+    color:rgb(189, 169, 169);
+    text-decoration: underline;
+}
+
+.third{
+    /* border: 3px solid yellow;   // border for understanding */
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 19px;
+    top: 15px;
+}
+.btn{
+    margin: 0px 10px;
+    padding: 7px 10px;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.btn:hover{
+    color: #b8012c;
+    background-color: white;
+
+}
+.container{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 93px 18px;
+    padding: 46px 46px;
+    width: 33%;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid rgba(190, 196, 187, 0.699);
+    border-radius: 25px;
+    width: 272px;
+    margin: 10px auto;
+    padding:5px 5px;
+    background-color: rgba(211, 200, 200, 0.815);
+    font-family: 'Poppins', sans-serif;
+}
+/* .container .btn{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid rgb(130, 241, 55);
+    border-radius: 25px;
+    width: 292px;
+    margin: 18px auto;
+    padding:5px 5px;
+    background-color: rgb(173, 47, 204);
+    font-family: 'Poppins', sans-serif;
+} */
+.container button{
+display: block;
+width: 292px;
+margin: 20px auto;
+}
